@@ -1,9 +1,8 @@
-
 # Predator-Prey Simulation
 
 ## Description
 
-This repository contains a Java-based web application that simulates predator-prey interactions within a 2D environment. Flies act as prey, while spiders serve as predators. The simulation provides two distinct versions for comparison and exploration of ecological dynamics.
+This repository contains a Java-based web application that simulates predator-prey interactions within a 2D environment. Flies act as prey, while spiders serve as predators.
 
 ## Features
 
