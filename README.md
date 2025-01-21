@@ -5,16 +5,12 @@
 
 This repository contains a Java-based web application that simulates predator-prey interactions within a 2D environment. Flies act as prey, while spiders serve as predators. The simulation provides two distinct versions for comparison and exploration of ecological dynamics.
 
----
-
 ## Features
 
 - **Dynamic Simulation**: Models interactions between flies (prey) and spiders (predators).
 - **Graphical Interface**: Includes visual representations of organisms and their movements.
 - **Two Versions**: Offers two implementations to explore different simulation approaches.
 - **Customizable Settings**: Adjust simulation parameters, such as grid size and organism behaviors.
-
----
 
 ## Getting Started
 
@@ -31,14 +27,10 @@ This repository contains a Java-based web application that simulates predator-pr
 4. Compile and run the **`Program.java`** file in the **`src/`** folder.
 5. Observe the predator-prey interactions in real time.
 
----
-
 ## Technologies Used
 
 - **Java**: Programming language used for development.
 - **NetBeans**: IDE used for building and running the project.
-
----
 
 ## File Structure
 
@@ -46,8 +38,6 @@ This repository contains a Java-based web application that simulates predator-pr
 - **`Simulation-II/`**: Contains source code and assets for the second simulation version.
 - **`.DS_Store`**: macOS system file (ignore).
 - **`README.md`**: Documentation file with project details and instructions.
-
----
 
 ## Usage
 
@@ -57,8 +47,6 @@ This repository contains a Java-based web application that simulates predator-pr
 4. View the simulation:
    - Watch as flies and spiders interact in a dynamic 2D grid.
    - Explore patterns of predator-prey dynamics with ease.
-
----
 
 ## Contributing
 
