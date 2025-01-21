@@ -1,49 +1,65 @@
-## Files and Folders:
 
-### Simulation-I:
-- `nbproject/`: Folder containing NetBeans project files.
-- `src/`: Folder containing the source code files.
-- `images/`: Folder containing image resources for the simulation.
-- `Cell.java`: Java file defining the Cell class.
-- `Configs.java`: Java file defining configurations for the simulation.
-- `Fly.java`: Java file defining the Fly class.
-- `Organism.java`: Java file defining the Organism class.
-- `Program.java`: Java file defining the main program logic.
-- `Spider.java`: Java file defining the Spider class.
-- `UI_Base.form`: NetBeans form file for the base UI.
-- `UI_Base.java`: Java file corresponding to the base UI form.
-- `UI_Grid.form`: NetBeans form file for the grid UI.
-- `UI_Grid.java`: Java file corresponding to the grid UI form.
-- `World.java`: Java file defining the World class.
-- `WorldCell.java`: Java file defining the WorldCell class.
-- `build.xml`: Ant build script for compiling and building the project.
-- `manifest.mf`: Manifest file specifying metadata for the project.
+# Predator-Prey Simulation
 
-### Simulation-II:
-- `nbproject/`: Folder containing NetBeans project files.
-- `src/MainPackage/`: Folder containing the source code files.
-- `images/`: Folder containing image resources for the simulation.
-- `Cell.java`: Java file defining the Cell class.
-- `Configs.java`: Java file defining configurations for the simulation.
-- `Coordinates.java`: Java file defining coordinates for the simulation.
-- `Fly.java`: Java file defining the Fly class.
-- `Organism.java`: Java file defining the Organism class.
-- `Program.java`: Java file defining the main program logic.
-- `Spider.java`: Java file defining the Spider class.
-- `UI_Base.form`: NetBeans form file for the base UI.
-- `UI_Base.java`: Java file corresponding to the base UI form.
-- `UI_Grid.form`: NetBeans form file for the grid UI.
-- `UI_Grid.java`: Java file corresponding to the grid UI form.
-- `World.java`: Java file defining the World class.
-- `bugsBG.jpg`, `fly.png`, `load.gif`, `spiderweb.png`: Image resources.
-- `build.xml`: Ant build script for compiling and building the project.
-- `manifest.mf`: Manifest file specifying metadata for the project.
-- `.DS_Store`: macOS system file storing custom attributes of a folder (ignore).
+## Description
 
-## Overview:
+This repository contains a Java-based web application that simulates predator-prey interactions within a 2D environment. Flies act as prey, while spiders serve as predators. The simulation provides two distinct versions for comparison and exploration of ecological dynamics.
 
-This repository contains two versions of a predator-prey simulation developed in Java. In each simulation, flies represent prey, while spiders act as predators. The simulations provide a basic 2D environment where users can observe the dynamics between predators and prey.
+---
 
-## Usage:
+## Features
 
-To run the simulation, you can compile and execute the Java files using an integrated development environment (IDE) such as NetBeans. The simulations provide an interactive environment where users can observe the behaviors of flies and spiders as they interact with each other. Whether you're a student exploring ecological dynamics or a developer interested in simulation programming, these simulations offer valuable insights into predator-prey relationships.
+- **Dynamic Simulation**: Models interactions between flies (prey) and spiders (predators).
+- **Graphical Interface**: Includes visual representations of organisms and their movements.
+- **Two Versions**: Offers two implementations to explore different simulation approaches.
+- **Customizable Settings**: Adjust simulation parameters, such as grid size and organism behaviors.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- **Java** installed on your system.
+- An IDE like **NetBeans** for running the project.
+
+### Steps to Use
+
+1. Clone or download the repository to your local machine.
+2. Open the project in your IDE (e.g., NetBeans).
+3. Navigate to either the **`Simulation-I/`** or **`Simulation-II/`** directory.
+4. Compile and run the **`Program.java`** file in the **`src/`** folder.
+5. Observe the predator-prey interactions in real time.
+
+---
+
+## Technologies Used
+
+- **Java**: Programming language used for development.
+- **NetBeans**: IDE used for building and running the project.
+
+---
+
+## File Structure
+
+- **`Simulation-I/`**: Contains source code and assets for the first simulation version.
+- **`Simulation-II/`**: Contains source code and assets for the second simulation version.
+- **`.DS_Store`**: macOS system file (ignore).
+- **`README.md`**: Documentation file with project details and instructions.
+
+---
+
+## Usage
+
+1. Open the project in your IDE (e.g., NetBeans).
+2. Navigate to the **`src/`** folder within either **`Simulation-I/`** or **`Simulation-II/`**.
+3. Run the **`Program.java`** file.
+4. View the simulation:
+   - Watch as flies and spiders interact in a dynamic 2D grid.
+   - Explore patterns of predator-prey dynamics with ease.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
